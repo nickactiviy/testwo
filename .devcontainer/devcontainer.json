@@ -1,10 +1,4 @@
 {
-    "name": "Ubuntu Baru",
-    "image": "://microsoft.com",
-    "features": {
-        "ghcr.io/devcontainers/features/common-utils:1": {
-            "configureZshAsDefaultShell": false
-        }
-    }
+  "name": "Kali Linux VNC Cloud",
+  "image": "kalilinux/kali-rolling:latest"
 }
-
