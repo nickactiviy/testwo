@@ -1,4 +1,10 @@
 {
-  "name": "Kali Linux VNC Cloud",
-  "image": "kalilinux/kali-rolling:latest"
+  "name": "Kali Linux",
+  "image": "docker.io/kalilinux/kali-rolling:latest",
+  "features": {
+    // Menambahkan git secara otomatis karena image dasar Kali sangat minimalis
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "postCreateCommand": "apt-get update && apt-get install -y kali-linux-headless"
 }
+
