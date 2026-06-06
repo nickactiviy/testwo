@@ -1,0 +1,10 @@
+{
+    "name": "Ubuntu Baru",
+    "image": "://microsoft.com",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:1": {
+            "configureZshAsDefaultShell": false
+        }
+    }
+}
+
