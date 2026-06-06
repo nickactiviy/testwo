@@ -3,7 +3,6 @@
   "image": "docker.io/kalilinux/kali-rolling:latest",
   "features": {
     "ghcr.io/devcontainers/features/git:1": {}
-  },
-  "remoteUser": "kali"
+  }
 }
 
